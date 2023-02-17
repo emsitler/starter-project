@@ -7,6 +7,7 @@ import { BottomNavBarComponent } from './Navigation/bottom-nav-bar/bottom-nav-ba
 import { FooterComponent } from './Lab2comps/footer/footer.component';
 import { TrendingReleasesComponent } from './Lab2comps/trending-releases/trending-releases.component';
 import { ArticlesComponent } from './Lab2comps/articles/articles.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ArticlesComponent } from './Lab2comps/articles/articles.component';
     BottomNavBarComponent,
     FooterComponent,
     TrendingReleasesComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule
