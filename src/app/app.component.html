@@ -1,15 +1,4 @@
 <app-top-nav-bar> loading... </app-top-nav-bar>
-<app-articles>loading...</app-articles>
-<app-trending-releases>loading...</app-trending-releases>
-<h5 class="header pt-4" style="padding-left: 120px; padding-right: 120px;">Explore Newly Added</h5>
-<div class="container-fluid d-flex" style="padding-left: 120px; padding-right: 120px;">
-    <div class="row row-cols-5 py-1">
-        <div *ngFor="let item of albums">
-            <div class="col" style="width:200px mx-5">
-              <app-card imgDescription={{item.imgDescription}} band={{item.band}} img={{item.img}} name={{item.name}}></app-card>
-            </div>
-        </div>
-    </div>
-</div>
+<router-outlet></router-outlet>
 
 <app-footer> loading... </app-footer>

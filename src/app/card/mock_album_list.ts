@@ -36,10 +36,10 @@ export const mock_album_list = [
         imgDescription: "beachvibes"
     },
     {
-        img: "https://i.discogs.com/P2pQd02xdKGLWnelV40Hi-7Hwb8hnct7G23CoDBW-ak/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzAx/NzczLTE2NTMxMjQz/MzctNTg5Ni5qcGVn.jpeg",
-        band: "Harry Styles",
-        name: "Harry's House",
-        imgDescription: "my little sister wanted this one"
+        img: "https://i.discogs.com/wN-KdyBPGUAEw4035DkBsSCD78osfCocDefEcB0FNyE/rs:fit/g:sm/q:90/h:600/w:580/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MTE5/MzctMTYzNjQyNzYz/Mi0xNDE4LmpwZWc.jpeg",
+        band: "Fever the Ghost",
+        name: "Crab in Honey",
+        imgDescription: "crustacean"
     },
     {
         img: "https://i.discogs.com/tiWlHeQgDh4OJOnjpyTQFT6ho7CqtgjSPvCsHhXfB08/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjk4/Mi0xNTczNTg3ODg3/LTE5MzAuanBlZw.jpeg",
@@ -84,9 +84,9 @@ export const mock_album_list = [
         imgDescription: "jayrayMac"
     },
     {
-        img: "https://i.discogs.com/fOAsmEo0u1WP2-G6PnEDJvqkV1vF8tpS5A2Twv6Djm4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODM1/ODQzLTE1MjMxOTg2/MzItNTQwMy5qcGVn.jpeg",
-        band: "Kali Uchis",
-        name: "Isolation",
-        imgDescription: "girlboss"
+        img: "https://i.discogs.com/IXklRuG5Da5xRdSZlgEjmXjEU-PwnuV0qJM10YYEn3g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjMx/OTUzLTE1NTc5MTMz/NjYtMjM3MS5qcGVn.jpeg",
+        band: "Bladee",
+        name: "Icedancer",
+        imgDescription: "whistlepig"
     }
 ];

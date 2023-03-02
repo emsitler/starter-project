@@ -8,6 +8,12 @@ import { FooterComponent } from './Lab2comps/footer/footer.component';
 import { TrendingReleasesComponent } from './Lab2comps/trending-releases/trending-releases.component';
 import { ArticlesComponent } from './Lab2comps/articles/articles.component';
 import { CardComponent } from './card/card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeLayoutComponent } from './Layouts/home-layout/home-layout.component';
+import { SecondLayoutComponent } from './Layouts/second-layout/second-layout.component';
+import { DiscogsDigsComponent } from './Layouts/discogs-digs/discogs-digs.component';
+import { CareersPageComponent } from './Layouts/careers-page/careers-page.component';
+import { ApiPageComponent } from './Layouts/api-page/api-page.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +23,16 @@ import { CardComponent } from './card/card.component';
     FooterComponent,
     TrendingReleasesComponent,
     ArticlesComponent,
-    CardComponent
+    CardComponent,
+    HomeLayoutComponent,
+    SecondLayoutComponent,
+    DiscogsDigsComponent,
+    CareersPageComponent,
+    ApiPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
