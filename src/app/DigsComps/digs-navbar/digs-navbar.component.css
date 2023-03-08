@@ -1,0 +1,14 @@
+.d-inline-block{
+    margin-left: 20px;
+    width:auto;
+    text-align:center;
+    height:30px;
+}
+.d-inline-block :hover{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+.navbar{
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    height:40px;
+}

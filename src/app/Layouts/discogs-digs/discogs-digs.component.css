@@ -1,0 +1,20 @@
+.h1{
+    margin-top: 10px;
+    font-size: 72px;
+}
+.padder{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.wrapper{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.line-header{
+    height:2px;
+    width: 85%;
+}
+.line-header-text{
+    width: 11%;
+    margin-left: 8.6rem;
+}

@@ -14,6 +14,8 @@ import { SecondLayoutComponent } from './Layouts/second-layout/second-layout.com
 import { DiscogsDigsComponent } from './Layouts/discogs-digs/discogs-digs.component';
 import { CareersPageComponent } from './Layouts/careers-page/careers-page.component';
 import { ApiPageComponent } from './Layouts/api-page/api-page.component';
+import { DigsNavbarComponent } from './DigsComps/digs-navbar/digs-navbar.component';
+import { DigsCardComponent } from './DigsComps/digs-card/digs-card.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ApiPageComponent } from './Layouts/api-page/api-page.component';
     SecondLayoutComponent,
     DiscogsDigsComponent,
     CareersPageComponent,
-    ApiPageComponent
+    ApiPageComponent,
+    DigsNavbarComponent,
+    DigsCardComponent
   ],
   imports: [
     BrowserModule,
