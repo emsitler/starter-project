@@ -14,14 +14,35 @@
         </div>
       </div>
 </div>
-<div class="line-header container-fluid bg-black"></div>
-<div class="line-header-text d-inline-block text-white bg-black"> Trending Albums This Week</div>
+<div class="lineup container">
+    <div class="line-header container-fluid bg-black"></div>
+    <div class="line-header-text d-inline-block text-white bg-black"> Trending Albums This Week</div>
+</div>
 <div class="container-fluid d-flex" style= "justify-content:space-evenly;">
     <div class="row row-cols-5">
         <div *ngFor="let item of albums">
             <div class="col" style="width:230px">
               <app-digs-card  band={{item.band}} img={{item.img}} name={{item.name}} tags={{item.tags}} year={{item.year}} copies={{item.copies}} price={{item.price}}></app-digs-card>
             </div>
+        </div>
+    </div>
+</div>
+<div class="lineup container">
+    <div class="line-header container-fluid bg-black"></div>
+    <div class="line-header-text d-inline-block text-white bg-black"> Music Recommendations</div>
+</div>
+<div class="container-fluid d-flex content-align-center">
+    <div class="row row-cols-2">
+        <div class="col">
+            <app-digs-article type="MUSIC" title="If You Like Wet Leg, Listen To These Albums" img="https://content.discogs.com/media/Wet-Leg-artist-square.png"></app-digs-article>
+        </div>
+        <div class="col" style="width:50%">
+            <app-digs-article type="MUSIC" title="If You Like The Smile’s A Light For Attracting Attention, Listen To These Albums" img="https://content.discogs.com/media/The-Smile-artist-square.png"></app-digs-article>
+        </div>
+        <div class="col">
+            <app-digs-article type="MUSIC" title="If You Like Danger Mouse & Black Thought’s Cheat Codes, Listen to These Albums" img="https://content.discogs.com/media/Danger-Mouse-and-Black-Thought-artist-square.png"></app-digs-article>
+        </div><div class="col">
+            <app-digs-article type="MUSIC" title="If You Like Rosalía’s Motomami, Listen To These Albums" img="https://content.discogs.com/media/Rosalia-artist-square.png"></app-digs-article>
         </div>
     </div>
 </div>

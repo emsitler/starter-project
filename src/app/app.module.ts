@@ -16,6 +16,8 @@ import { CareersPageComponent } from './Layouts/careers-page/careers-page.compon
 import { ApiPageComponent } from './Layouts/api-page/api-page.component';
 import { DigsNavbarComponent } from './DigsComps/digs-navbar/digs-navbar.component';
 import { DigsCardComponent } from './DigsComps/digs-card/digs-card.component';
+import { DigsArticleComponent } from './DigsComps/digs-article/digs-article.component';
+import { AccordionCareerComponent } from './CareerComps/accordion-career/accordion-career.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { DigsCardComponent } from './DigsComps/digs-card/digs-card.component';
     CareersPageComponent,
     ApiPageComponent,
     DigsNavbarComponent,
-    DigsCardComponent
+    DigsCardComponent,
+    DigsArticleComponent,
+    AccordionCareerComponent
   ],
   imports: [
     BrowserModule,

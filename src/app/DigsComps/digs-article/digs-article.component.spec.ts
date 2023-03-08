@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiscogsDigsComponent } from './discogs-digs.component';
+import { DigsArticleComponent } from './digs-article.component';
 
-
-describe('DiscogsDigsComponent', () => {
-  let component: DiscogsDigsComponent;
-  let fixture: ComponentFixture<DiscogsDigsComponent>;
+describe('DigsArticleComponent', () => {
+  let component: DigsArticleComponent;
+  let fixture: ComponentFixture<DigsArticleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DiscogsDigsComponent ]
+      declarations: [ DigsArticleComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DiscogsDigsComponent);
+    fixture = TestBed.createComponent(DigsArticleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

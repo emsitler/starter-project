@@ -7,14 +7,19 @@
     padding-top: 150px;
 }
 .wrapper{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 .line-header{
     height:2px;
-    width: 85%;
 }
 .line-header-text{
-    width: 11%;
-    margin-left: 8.6rem;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+.lineup{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
