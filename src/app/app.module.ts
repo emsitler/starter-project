@@ -19,6 +19,7 @@ import { DigsCardComponent } from './DigsComps/digs-card/digs-card.component';
 import { DigsArticleComponent } from './DigsComps/digs-article/digs-article.component';
 import { AccordionCareerComponent } from './CareerComps/accordion-career/accordion-career.component';
 import { NewsletterFormComponent } from './CareerComps/newsletter-form/newsletter-form.component';
+import { TeamCardComponent } from './CareerComps/team-card/team-card.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { NewsletterFormComponent } from './CareerComps/newsletter-form/newslette
     DigsCardComponent,
     DigsArticleComponent,
     AccordionCareerComponent,
-    NewsletterFormComponent
+    NewsletterFormComponent,
+    TeamCardComponent
   ],
   imports: [
     BrowserModule,

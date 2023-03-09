@@ -1,0 +1,11 @@
+.card-img-top{
+    height:50%;
+    width:50%;
+}
+.container-fluid{
+    height:200px;
+}
+.card{
+    border:none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
