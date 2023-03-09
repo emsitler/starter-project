@@ -8,3 +8,12 @@
 .accordion-body{
     text-align: left;
 }
+.applyButton{
+    border-radius: 0px;
+    justify-self: start;
+}
+.applyButton:hover{
+    color:white;
+    background-color: black;
+    border-radius:0px;
+}

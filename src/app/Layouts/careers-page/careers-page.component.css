@@ -9,3 +9,13 @@
     text-decoration:underline;
     color:dimgrey;
 }
+.yellow{
+    background-color:#f5df2e;
+    background-image: "https://content.discogs.com/media/Texture-white-01-1920px-crop-50-opacity.png";
+    border-top: 3px;
+}
+.signup{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
