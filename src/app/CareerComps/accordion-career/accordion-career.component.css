@@ -10,7 +10,6 @@
 }
 .applyButton{
     border-radius: 0px;
-    justify-self: start;
 }
 .applyButton:hover{
     color:white;
