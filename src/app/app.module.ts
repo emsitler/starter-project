@@ -20,6 +20,8 @@ import { DigsArticleComponent } from './DigsComps/digs-article/digs-article.comp
 import { AccordionCareerComponent } from './CareerComps/accordion-career/accordion-career.component';
 import { NewsletterFormComponent } from './CareerComps/newsletter-form/newsletter-form.component';
 import { TeamCardComponent } from './CareerComps/team-card/team-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './Navigation/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -40,11 +42,13 @@ import { TeamCardComponent } from './CareerComps/team-card/team-card.component';
     DigsArticleComponent,
     AccordionCareerComponent,
     NewsletterFormComponent,
-    TeamCardComponent
+    TeamCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
