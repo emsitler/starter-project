@@ -20,7 +20,7 @@
 </div>
 <div class="container-fluid d-flex" style= "justify-content:space-evenly;">
     <div class="row row-cols-5">
-        <div *ngFor="let item of albums">
+        <div *ngFor="let item of shoppies">
             <div class="col" style="width:230px">
               <app-digs-card  band={{item.band}} img={{item.img}} name={{item.name}} tags={{item.tags}} year={{item.year}} copies={{item.copies}} price={{item.price}}></app-digs-card>
             </div>
