@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "discogs-app-723a9"
+  },
+  "targets": {
+    "discogs-app-723a9": {
+      "hosting": {
+        "starter-project": [
+          "discogs-app-723a9"
+        ]
+      }
+    }
   }
 }

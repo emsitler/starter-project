@@ -22,6 +22,11 @@ import { NewsletterFormComponent } from './CareerComps/newsletter-form/newslette
 import { TeamCardComponent } from './CareerComps/team-card/team-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './Navigation/user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import {AngularFirestoreModule} from "@angular/fire/compat/firestore/";
+import { AngularFireModule } from '@angular/fire/compat';
 
 @NgModule({
   declarations: [
@@ -48,7 +53,11 @@ import { UserInfoComponent } from './Navigation/user-info/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFirestoreModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]

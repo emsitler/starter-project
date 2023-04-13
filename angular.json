@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "starter-project:build:production",
+            "firebaseProject": "discogs-app-723a9",
+            "firebaseHostingSite": "discogs-app-723a9"
+          }
         }
       }
     }
