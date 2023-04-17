@@ -27,6 +27,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import {AngularFirestoreModule} from "@angular/fire/compat/firestore/";
 import { AngularFireModule } from '@angular/fire/compat';
+import { AddCompComponent } from './add-comp/add-comp.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     AccordionCareerComponent,
     NewsletterFormComponent,
     TeamCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddCompComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +60,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     AngularFirestoreModule,
     AngularFireModule.initializeApp(environment.firebase),
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideDatabase(() => getDatabase())
+    provideDatabase(() => getDatabase()),
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

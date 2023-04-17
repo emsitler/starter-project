@@ -22,4 +22,8 @@ export class CardsService{
     getShoppies(){
         return this.db.list<ShoppableCard>("shoppies").valueChanges();
     }
+
+    addAlbum(alb:AlbumCard){
+        this.db.list<AlbumCard>("albums").push(alb);
+    }
 }

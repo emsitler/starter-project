@@ -5,12 +5,17 @@ import { SecondLayoutComponent } from './Layouts/second-layout/second-layout.com
 import { DiscogsDigsComponent } from './Layouts/discogs-digs/discogs-digs.component';
 import { CareersPageComponent } from './Layouts/careers-page/careers-page.component';
 import { ApiPageComponent } from './Layouts/api-page/api-page.component';
+import { AddCompComponent } from './add-comp/add-comp.component';
 
 const routes: Routes = [   
   {
   path: '',
   component: HomeLayoutComponent
- },
+  },
+  {
+  path: 'admin',
+  component: AddCompComponent
+  },
   {
     path: 'SecondLayout',
     component: SecondLayoutComponent

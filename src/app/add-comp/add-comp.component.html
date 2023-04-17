@@ -1,0 +1,36 @@
+<div class="container">
+    <p>add comp works!</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postform="ngForm"(ngSubmit)="addItem(postform.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">Image Path</span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">name</span>
+                    <input type="text" class="form-control" ngModel name="name">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Image Description</span>
+                    <input type="text" class="form-control" ngModel name="imgDescription">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">band</span>
+                    <input type="text" class="form-control" ngModel name="band">
+                </div>
+
+                <button class="btn btn-light" type="sub">
+                    Add Item
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
