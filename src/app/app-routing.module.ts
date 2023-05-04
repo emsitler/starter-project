@@ -6,8 +6,13 @@ import { DiscogsDigsComponent } from './Layouts/discogs-digs/discogs-digs.compon
 import { CareersPageComponent } from './Layouts/careers-page/careers-page.component';
 import { ApiPageComponent } from './Layouts/api-page/api-page.component';
 import { AddCompComponent } from './add-comp/add-comp.component';
+import { AuthComponent } from './auth/auth.component';
 
-const routes: Routes = [   
+const routes: Routes = [  
+  {
+    path: 'auth',
+    component: AuthComponent
+  } ,
   {
   path: '',
   component: HomeLayoutComponent
